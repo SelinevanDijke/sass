@@ -1,0 +1,18 @@
+.contact {
+	padding: $stnPadding;
+}
+.wrapper {
+	.contact {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+.form-wrapper {
+	padding: $stnPadding;
+}
+.contact-wrapper {
+	padding: $stnPadding;
+}
+.copy-wrapper {
+	padding-left: $stnPadding;
+}

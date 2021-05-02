@@ -1,0 +1,8 @@
+.featured {
+	@include basicStyle();
+
+}
+.text-featured { 
+	@include basicText();
+}
+	

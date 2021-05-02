@@ -1,0 +1,27 @@
+$bckgrndLight: #c0eea9;
+$bckgrndDark: #97d279;
+$stnPadding: 20px;
+
+@mixin basicStyle {
+	padding: $stnPadding;
+
+	.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	img {
+		width: 300px;
+	}
+}
+
+@mixin basicText {
+	max-width: 700px;
+	text-align: center;
+	padding: $stnPadding;
+
+	p {
+		text-align: justify;
+		padding: $stnPadding;
+		line-height: 1.4em;
+	}
+}
